@@ -1,0 +1,173 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zuoye plus - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ZTONG~1\AppData\Local\Temp\RSP242.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/zuoye plus.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\VC\zuoye plus\zuoye plus.cpp"
+]
+Creating command line "cl.exe @C:\Users\ZTONG~1\AppData\Local\Temp\RSP242.tmp" 
+Creating temporary file "C:\Users\ZTONG~1\AppData\Local\Temp\RSP243.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/zuoye plus.pdb" /debug /machine:I386 /out:"Debug/zuoye plus.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\zuoye plus.obj"
+]
+Creating command line "link.exe @C:\Users\ZTONG~1\AppData\Local\Temp\RSP243.tmp"
+<h3>Output Window</h3>
+Compiling...
+zuoye plus.cpp
+C:\VC\zuoye plus\zuoye plus.cpp(115) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+C:\VC\zuoye plus\zuoye plus.cpp(647) : warning C4101: 'p2' : unreferenced local variable
+C:\VC\zuoye plus\zuoye plus.cpp(789) : error C2040: 'temp' : 'struct student *' differs in levels of indirection from 'struct student'
+C:\VC\zuoye plus\zuoye plus.cpp(789) : error C2676: binary '!=' : 'struct student' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\VC\zuoye plus\zuoye plus.cpp(789) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(789) : error C2227: left of '->next' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(791) : error C2440: 'initializing' : cannot convert from 'struct student' to 'struct student *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\VC\zuoye plus\zuoye plus.cpp(793) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(793) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(793) : error C2228: left of '.China' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(795) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(795) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(795) : error C2228: left of '.China' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(796) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(796) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(796) : error C2228: left of '.China' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(807) : error C2040: 'temp' : 'struct student *' differs in levels of indirection from 'struct student'
+C:\VC\zuoye plus\zuoye plus.cpp(807) : error C2676: binary '!=' : 'struct student' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\VC\zuoye plus\zuoye plus.cpp(807) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(807) : error C2227: left of '->next' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(809) : error C2440: 'initializing' : cannot convert from 'struct student' to 'struct student *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\VC\zuoye plus\zuoye plus.cpp(811) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(811) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(811) : error C2228: left of '.shuxue' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(813) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(813) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(813) : error C2228: left of '.shuxue' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(814) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(814) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(814) : error C2228: left of '.shuxue' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(825) : error C2040: 'temp' : 'struct student *' differs in levels of indirection from 'struct student'
+C:\VC\zuoye plus\zuoye plus.cpp(825) : error C2676: binary '!=' : 'struct student' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\VC\zuoye plus\zuoye plus.cpp(825) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(825) : error C2227: left of '->next' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(827) : error C2440: 'initializing' : cannot convert from 'struct student' to 'struct student *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\VC\zuoye plus\zuoye plus.cpp(829) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(829) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(829) : error C2228: left of '.English' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(831) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(831) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(831) : error C2228: left of '.English' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(832) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(832) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(832) : error C2228: left of '.English' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(843) : error C2040: 'temp' : 'struct student *' differs in levels of indirection from 'struct student'
+C:\VC\zuoye plus\zuoye plus.cpp(843) : error C2676: binary '!=' : 'struct student' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\VC\zuoye plus\zuoye plus.cpp(843) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(843) : error C2227: left of '->next' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(845) : error C2440: 'initializing' : cannot convert from 'struct student' to 'struct student *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\VC\zuoye plus\zuoye plus.cpp(847) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(847) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(847) : error C2228: left of '.wuli' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(849) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(849) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(849) : error C2228: left of '.wuli' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(850) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(850) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(850) : error C2228: left of '.wuli' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(861) : error C2040: 'temp' : 'struct student *' differs in levels of indirection from 'struct student'
+C:\VC\zuoye plus\zuoye plus.cpp(861) : error C2676: binary '!=' : 'struct student' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\VC\zuoye plus\zuoye plus.cpp(861) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(861) : error C2227: left of '->next' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(863) : error C2440: 'initializing' : cannot convert from 'struct student' to 'struct student *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\VC\zuoye plus\zuoye plus.cpp(865) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(865) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(865) : error C2228: left of '.huaxue' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(867) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(867) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(867) : error C2228: left of '.huaxue' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(868) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(868) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(868) : error C2228: left of '.huaxue' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(879) : error C2040: 'temp' : 'struct student *' differs in levels of indirection from 'struct student'
+C:\VC\zuoye plus\zuoye plus.cpp(879) : error C2676: binary '!=' : 'struct student' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\VC\zuoye plus\zuoye plus.cpp(879) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(879) : error C2227: left of '->next' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(881) : error C2440: 'initializing' : cannot convert from 'struct student' to 'struct student *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\VC\zuoye plus\zuoye plus.cpp(883) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(883) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(883) : error C2228: left of '.shengwu' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(885) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(885) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(885) : error C2228: left of '.shengwu' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(886) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(886) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(886) : error C2228: left of '.shengwu' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(897) : error C2040: 'temp' : 'struct student *' differs in levels of indirection from 'struct student'
+C:\VC\zuoye plus\zuoye plus.cpp(897) : error C2676: binary '!=' : 'struct student' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\VC\zuoye plus\zuoye plus.cpp(897) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(897) : error C2227: left of '->next' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(899) : error C2440: 'initializing' : cannot convert from 'struct student' to 'struct student *'
+        No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\VC\zuoye plus\zuoye plus.cpp(901) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(901) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(901) : error C2228: left of '.zhengzhi' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(903) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(903) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(903) : error C2228: left of '.zhengzhi' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(904) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(904) : error C2227: left of '->fenshu' must point to class/struct/union
+C:\VC\zuoye plus\zuoye plus.cpp(904) : error C2228: left of '.zhengzhi' must have class/struct/union type
+C:\VC\zuoye plus\zuoye plus.cpp(915) : error C2040: 'temp' : 'struct student *' differs in levels of indirection from 'struct student'
+C:\VC\zuoye plus\zuoye plus.cpp(915) : error C2676: binary '!=' : 'struct student' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\VC\zuoye plus\zuoye plus.cpp(915) : error C2819: type 'student' does not have an overloaded member 'operator ->'
+        C:\VC\zuoye plus\zuoye plus.cpp(9) : see declaration of 'student'
+C:\VC\zuoye plus\zuoye plus.cpp(915) : fatal error C1003: error count exceeds 100; stopping compilation
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+zuoye plus.exe - 102 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
